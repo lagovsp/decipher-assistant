@@ -1,7 +1,7 @@
 import string
 import sys
 
-WIDTH = 100
+WIDTH = 90
 
 
 def main():
@@ -32,7 +32,7 @@ def main():
                 )
             )
             print()
-            left_to_print -= 100
+            left_to_print -= WIDTH
             i += 1
         print("-" * WIDTH)
 
